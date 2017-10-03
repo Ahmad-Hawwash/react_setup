@@ -94,7 +94,7 @@ call cls
 
 echo ====================================================================================================
 echo simple instructions to follow:
-echo 1. Open the "package.json" file Let's add the start command.
+echo 1. Open the "package.json" file Let's add the start command into scripts object.
 echo ----^> "start": "webpack-dev-server --hot" ^<----
 echo 2. then run 'npm start' in cmd in your project folder
 echo 3. go to your browser and paste this link localhost:%ServerPort%
