@@ -90,15 +90,14 @@ call npm install babel-preset-es2015
 @echo import App from './App.js'; >> main.js
 @echo ReactDOM.render(^<App /^>, document.getElementById('app')); >> main.js
 
-call clear
+call cls
 
 echo ====================================================================================================
 echo simple instructions to follow:
-echo 1. Open the package.json and delete "test" "echo \"Error: no test specified\" && exit 1" inside "scripts" object. We are deleting this line since we will not do any testing in this tutorial. Let's add the start command instead.
+echo 1. Open the "package.json" file Let's add the start command.
 echo ----^> "start": "webpack-dev-server --hot" ^<----
 echo 2. then run 'npm start' in cmd in your project folder
 echo 3. go to your browser and paste this link localhost:%ServerPort%
 echo ENJOY!
-echo You now have to run this command to run your app 'npm webpack-dev-server'
 
 pause
